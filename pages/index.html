@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--How the hell do I load a style sheet? -->
+	<LINK REL=StyleSheet HREF="/swag.css" TITLE="Swagged">
+
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.js">
 	</script>
 	<title>
@@ -8,10 +11,13 @@
 	</title>
 	this is the head. we don't put JS here. We put it at the end of the body.
 </head>
-<body>
-	<strong>Login</strong>
-
-<form id='login' action='login.php' method='post' accept-charset='UTF-8'>
+<nav>
+<div id="navitems">
+	<ul>
+		<li><a href="">About</a></li>
+		<li><a href="">Login</a></li>
+		<!--This is an inline login form set in the nav bar-->
+		<form id='login' action='login.php' method='post' accept-charset='UTF-8'>
 	<input type='hidden' name='submitted' id='submitted' value='1'/>
 	<label for='username' >Username:</label>
 	<input type='text' name='username' id='username'  maxlength="50" />
@@ -20,6 +26,11 @@
 	<input type='submit' name='Submit' value='Submit' />
 </form>
 
+		<li><a href="">Sign up</a></li>
+	</ul>
+</div>
+</nav>
+<body>
 	<header>
 	</header>
 
@@ -29,6 +40,13 @@
 		</p>
 	</div>
 	<footer>
+		<ul>
+			<il><a href="">How it works</a></il>
+			<il><a href="">Who we are</a></il>
+			<il><a href="">Terms</a></il>
+			<il><a href="">Feedback</a></il>
+			<il><a href="">Contact</a></il>
+		</ul>	
 	</footer>
 </body>
 </html>

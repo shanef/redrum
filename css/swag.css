@@ -1,0 +1,35 @@
+#navitems {
+	display:inline;
+	color:black;
+	position:fixed;
+}
+
+div a:hover{
+	text-decoration: none;
+	color:grey;
+}
+
+h1 {
+	display:inline;
+	text-decoration:bold;
+	background:grey;
+	padding:10px;
+	margin:25px
+}
+
+p {
+	color:black;
+	border:5px solid grey;
+}
+
+footer ul il {
+	background-color: grey;
+	color:white;
+	text-decoration: none;
+	clear:both;
+}
+
+footer ul il a:hover {
+	color:black;
+	text-decoration: underline;
+}
