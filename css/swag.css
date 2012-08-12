@@ -1,7 +1,9 @@
 
 #navitems ul li {
 	display:inline-block;
-	color:black; /grey text
+	color:black; 
+	position:relative;
+	bottom:30px;
 }
 #navitems li {
 	padding:3px;
@@ -10,6 +12,12 @@
 	font:bold 13px helvetica;
 	background-color:#CDCDCD;
 	border-radius: 0px;
+	padding-top:3px;
+	padding-bottom:3px;
+	position:relative;
+	height:82px;
+	top:10px;
+
 }
 footer ul li a:hover,div a:hover{
 	text-decoration: none;
@@ -70,5 +78,11 @@ footer li {
 }
 body {
 	margin: 0px;
+}
+#main_header_logo {
+	padding:0px;
+	position:relative;
+	top:-5px;
+	
 }
 
