@@ -11,20 +11,20 @@
 
 <body>
 	<header>
-		<nav>
+		<nav id="head" class="sticky">
 			<div id="navitems">
-				<ul>
+				<ul class="navlist">
 					<li id="main_header_logo">
-						<img src="http://i.imgur.com/DIamW.gif"/>
+						<img src="http://i.imgur.com/MMXiY.gif"/>
 					</li>
-					<li id="main_header_anchor">
+					<li class="main_header_anchor">
 						<a href="">About</a>
 					</li>
-					<li id="main_header_anchor">
+					<li class="main_header_anchor">
 						<a href="">Login</a>
 					</li>
 					<!--This is an inline login form set in the nav bar-->
-					<li id="main_header_anchor">
+					<li class="main_header_anchor">
 						<form id='login' action='login.php' method='post' accept-charset='UTF-8'>
 							<input type='hidden' name='submitted' id='submitted' value='1'/>
 							<label for='username' >Username:</label>
@@ -48,7 +48,7 @@
 		</p>
 	</div>
 	<footer>
-		<nav>
+		<nav id="foot">
 			<ul>
 				<li id="main_footer_anchor"><a href="">How it works</a><li>
 				<li id="main_footer_anchor"><a href="">Who we are</a></li>

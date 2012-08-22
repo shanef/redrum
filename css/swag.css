@@ -1,0 +1,18 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.sticky{
+	position: static;
+	z-index: 5000;
+}
+
+#head{
+	background-color: #3A3A3A;
+}
+
+.navlist{
+	margin: 0px !important;
+	list-style-type: none;
+}
